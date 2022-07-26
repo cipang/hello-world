@@ -1,4 +1,7 @@
 
 data = "$Id$"
 
-print(f"{data=}")
+import re
+version = data[5:9]
+
+print(f"{data=}; {version=}")
